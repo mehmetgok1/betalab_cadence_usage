@@ -43,6 +43,8 @@ Gitea repository into `~/<project_name>`. On subsequent uses, it loads the
 required tools, such as Virtuoso and Calibre, without cloning the repository
 again.
 
+When you are finished using the module, you can run `module purge` to unload
+all modules, or `module unload <project_name>` to unload only that project.
 
 ## Project directory structure
 
