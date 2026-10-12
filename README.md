@@ -1,5 +1,16 @@
 # BetaLab Cadence Usage Guide
 
+<h2><font color="red">Before doing anything, go to your home directory and load
+the project module from there:</font></h2>
+
+```bash
+cd ~
+module load <project_name>
+```
+
+Always run these commands from `~`. Otherwise, `cds.lib` and other files from
+previous work may be deleted or overwritten.
+
 This process is valid for both the Hartley and Newton servers.
 
 > Please learn the basics of Git before using the shared repositories. An
